@@ -1,0 +1,29 @@
+Üldine idee ülevaade:
+* Veebileht, kus on vorm (tekstiväljad ja dropdown valikud), mida täites kirjeldab taotleja enda tudengiprojekti.
+
+* Selle vormi väljade väärtused, ehk projekti info, salvestatakse andmebaasi (saame alustuseks kasutada phpmyadmin'i andmebaasi).
+
+* Juba esitatud tudengiprojekti saab muuta (muutes uuendatakse andmebaasi välju).
+
+* Andmebaasi väljade alusel saab genereerida PDF'i, milles ongi tudengiprojekt kirjeldatud.
+
+
+-------
+
+Uue projekti taotlemise protsess:
+Klient = tudengiprojekti taotleja.
+
+1) Klient läheb tudengiprojekti taotluskeskkonda (meie leht).
+2) Klient logib oma Google'i TLÜ kontoga sisse (kasutajanimi@tlu.ee, siin lubas Romil vajadusel abiks olla).
+3) Klient valib tudengiprojekti tüübi, mida soovib taotleda.
+4) Kliendile kuvatakse valiku alusel vastav veebivorm.
+5) Klient täidab vajalikud väljad ära ning vajutab "esita" nuppu.
+
+
+Tausta protsess:
+1) "Esita" nuppu vajutades edastatakse vormis sisestatud andmed andmebaasi ning need salvestatakse uue sissekandena.
+2) Nende alusel genereeritakse PDF, mis edastatakse hindamiseks.
+
+Täpsustada: kuidas oleks kõige parem genereeritud PDF hindamiseks edastada.
+
+Esimene samm: Luua saadetud word dokumentide alusel veebivormid ning nende korrektsus Silver Sternfeldt'iga kinnitada (järgmine nädal).

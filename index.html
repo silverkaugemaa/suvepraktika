@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        .content {
+            max-width: 750px;
+            margin: auto;
+            background: white;
+            padding: 10px;
+        }
+
+        .chapter-header {
+            text-align: center;
+            vertical-align: center;
+            font-weight: bold;
+            color: white;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-style: solid;
+            border-width: 1px;
+            background-color: brown;
+        }
+
+        .chapter {
+            border-style: solid;
+            padding-left: 10px;
+            border-width: 1px;
+        }
+
+        label {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="chapter-header">
+            <p>Projekti ning taotleja üldandmed</p>
+        </div>
+        <div class="chapter">
+
+            <div class="form-group">
+                <label>Ees- ja perekonnanimi / taotleva organisatsiooni nimi ja vastutava (allkirjaõigusliku) isiku nimi:</label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="form-group">
+                <label>Organisatsiooni seos tudengi ja ülikooliga:</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Taotleja isikukood / organisatsiooni registrikood:</label>
+                <input type="number" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Taotleja kontaktandmed:</label>
+                <input type="number" class="form-control" placeholder="telefoninumber">
+                <br>
+                <input type="email" class="form-control" placeholder="e-posti aadress">
+                <br>
+                <input type="text" class="form-control" placeholder="elukoha aadress">
+
+            </div>
+            <div class="form-group">
+                <label>Õppeinfo:</label>
+                <input type="text" class="form-control" placeholder="eriala">
+                <br>
+                <input type="text" class="form-control" placeholder="õppetase">
+                <br>
+                <input type="number" class="form-control" placeholder="õppeaasta">
+            </div>
+            <div class="form-group">
+                <label>Projekti juht:</label>
+                <input type="text" class="form-control" id="project-leader">
+                <small id="project-leader" class="form-text text-muted">M1 ja M3 projektide puhul saab juhiks olla toetuse taotleja.</small>
+            </div>
+            <div class="form-group">
+                <label>Teised projektimeeskonna liikmed</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Juhendaja info (ainult M1 projekt):</label>
+                <input type="text" class="form-control" placeholder="juhendaja nimi">
+                <br>
+                <input type="text" class="form-control" placeholder="ametikoht/haridus">
+                <br>
+                <input type="text" class="form-control" placeholder="tegevusvaldkond">
+            </div>
+            <div class="form-group">
+                <label>Projekti pealkiri</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Taotletav summa</label>
+                <input type="number" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Projekti eeldatav periood:</label>
+                <input type="number" class="form-control" placeholder="alguskuupäev">
+                <br>
+                <input type="number" class="form-control" placeholder="lõpukuupäev">
+            </div>
+            <div class="form-group">
+                <label>Taotletava summa kasutamise eesmärk (ühe lausega)</label>
+                <input type="text" class="form-control">
+            </div>
+
+
+        </div>
+        <hr>
+
+    </div>
+    <!-- 
+
+
+<form>
+            <div class="dropdown" style="align-content: center; margin-left: 25%;">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#">HTML</a>
+                    </li>
+                    <li>
+                        <a href="#">CSS</a>
+                    </li>
+                    <li>
+                        <a href="#">JavaScript</a>
+                    </li>
+                </ul>
+            </div>
+        </form>
+
+-->
+
+</body>
+
+</html>
