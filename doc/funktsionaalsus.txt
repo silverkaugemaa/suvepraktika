@@ -1,0 +1,16 @@
+Klient:
+ *saab sisselogida
+ *esitada uue taotluse
+ *saab olemas taotlusi vaadata
+ *klient saab taotluse tagasivõtta (taotlus jääb alles)
+ *andmebaasis on taotluse last modified väli.
+ *Olemasoleva taotluse kohta genereerida PDF'i
+ *Klient saab valida taotluse ning selle põhjal genereerida aruandluse
+
+Admin:
+ * saab näha kõiki taotlusi ning soovitud taotluse kohta genereerida PDF'i
+ * Märkuste lahter kuhu admin saab taotluse kohta informatsiooni kirjutada.
+ * Filtreerida taotlusi.
+ * Saab iga taotluse kohta genereerida kas positiivse või negatiivse otsuse korral.
+ * Genereerida taotleja nime, projekti nime ja taoteldavat summat sisaldava väljavõtte.
+ * Näeb kõiki aruandeid ning saab neid vaadata.
