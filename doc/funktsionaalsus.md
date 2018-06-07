@@ -16,6 +16,7 @@
  * Saab iga taotluse kohta genereerida kas positiivse või negatiivse otsuse korral.
  * Genereerida taotleja nime, projekti nime ja taoteldavat summat sisaldava väljavõtte.
  * Näeb kõiki aruandeid ning saab neid vaadata.
+---
 
 ## Kliendi funktsionaalsuse Use Case'id:
 
@@ -48,3 +49,29 @@
 2) Klient valib esitatud taotluste nimekirjast ühe taotluse.
 3) Klient vajutab nuppu "genereeri PDF".
 4) Kliendile laetakse alla PDF fail, mis sisaldab taotluse sisu.
+---
+
+## Admini funktsionaalsuse Use Case'id:
+
+**Admin saab näha kõiki taotlusi ning soovitud taotluse kohta genereerida PDF'i:**
+1) Admin logib sisse.
+2) Admin edastatakse pealehele, kus on näha kõik taotlused.
+3) Admin valib ühe taotluse ja vajutab selle kõrval olevat nuppu "genereeri PDF".
+
+**Admin saab taotluste märkuste lahtrit täita:**
+1) Admin valib ühe taotluse
+2) Admin avab selle detail vaates ning täidab selle väärtuste lahtri.
+3) Admin vajutab nuppu salvesta.
+
+**Admin saab filtreerida taotlusi:**
+1) Admin sisestab pealehel filtri välja väärtuse mille järgi taotluste nimekirja filtreeritakse.
+
+**Admin saab iga taotluse kohta genereerida kas positiivse või negatiivse otsuse:**
+1) Admin valib pealehelt ühe taotluse.
+2) Admin avab selle detail vaates.
+3) Admin vajutab kas positiivse või negatiivse otsuse nuppu.
+
+**Admin saab genereerida taotleja nime, projekti nime ja taoteldavat summat sisaldava väljavõtte:**
+1) Admin valib pealehelt ühe taotluse.
+2) Admin avab selle detail vaates.
+3) Admin vajutab väljavõtte genereerimise nuppu.
