@@ -1,3 +1,14 @@
+window.onload = function() {
+    onLoad();
+}
+
+function onLoad() {
+    gapi.load('auth2', function () {
+        console.log("Success");
+        gapi.auth2.init();
+    });
+}
+
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
 
@@ -10,13 +21,16 @@ function onSignIn(googleUser) {
     } else {
         alert("Palun logi sisse kasutades enda TLÜ kontot.");
         signOut();
+        console.log('User signed out.');
+        window.location.reload(true)
     }
 }
 
 function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
-        window.location = "./index.html";
+        
         console.log('User signed out.');
+        window.location = "./index.html";
     });
 }
