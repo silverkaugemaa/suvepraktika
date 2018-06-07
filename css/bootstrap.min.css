@@ -29,3 +29,9 @@
     padding-left: 10px;
     border-width: 1px;
 }
+
+.tableExplanation {
+  font-family: italic;
+  font-size: 12px;
+  font-weight: 400;
+}
